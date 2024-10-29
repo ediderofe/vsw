@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VAST Wrapper Creative with Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="survey-container" class="visible">
+    <h2>Soru: Bu reklamla ilgili ne öğrenmek istersiniz?</h2>
+    <button class="answer-btn" data-answer="1" data-pixel="https://your-dsp.com/pixel1">Ürün hakkında bilgi</button>
+    <button class="answer-btn" data-answer="2" data-pixel="https://your-dsp.com/pixel2">İndirim fırsatları</button>
+    <button class="answer-btn" data-answer="3" data-pixel="https://your-dsp.com/pixel3">Yeni özellikler</button>
+    <button class="answer-btn" data-answer="4" data-pixel="https://your-dsp.com/pixel4">Marka hakkında bilgi</button>
+    <button id="skip-btn">GEÇ</button>
+    <div id="thank-you" class="hidden">Teşekkür ederiz!</div>
+  </div>
+
+  <video id="video-player" class="hidden" controls></video>
+
+  <script src="script.js"></script>
+</body>
+</html>
